@@ -1,0 +1,19 @@
+{
+  "window": {
+    "width": 680,
+    "height": 450,
+    "border_radius": 14,
+    "opacity": 0.96,
+    "background_color": "#121316",
+    "border_color": "rgba(255, 255, 255, 0.12)"
+  },
+  "typography": {
+    "font_size": 14.5,
+    "line_height": 1.55,
+    "text_color": "#F0F2F5",
+    "header_color": "#60A5FA",
+    "math_color": "#38BDF8",
+    "code_background": "#1E2028",
+    "code_text": "#4ADE80"
+  }
+}

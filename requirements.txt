@@ -1,0 +1,8 @@
+google-genai>=2.0.0
+edge-tts>=7.0.0
+python-dotenv>=1.0.0
+pyobjc-core>=10.0
+pyobjc-framework-Cocoa>=10.0
+pyobjc-framework-Quartz>=10.0
+markdown>=3.6.0
+pygments>=2.18.0

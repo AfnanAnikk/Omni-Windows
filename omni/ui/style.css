@@ -1,0 +1,116 @@
+/* ========================================================
+   Omni Developer Stylesheet (Dark Theme)
+   ======================================================== */
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #E6EDF3;
+    background-color: transparent;
+    margin: 0;
+    padding: 0 4px;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+    color: #F0F6FC;
+    font-weight: 600;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    letter-spacing: -0.2px;
+}
+h1 {
+    font-size: 17px;
+    border-bottom: 1px solid rgba(240, 246, 252, 0.1);
+    padding-bottom: 6px;
+}
+h2 { font-size: 15px; color: #58A6FF; }
+h3 { font-size: 14px; color: #7EE787; }
+
+/* Text */
+p {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #D0D7DE;
+}
+strong, b {
+    color: #FFFFFF;
+    font-weight: 600;
+}
+em, i {
+    color: #8B949E;
+}
+
+/* Lists */
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-left: 22px;
+}
+li {
+    margin-bottom: 4px;
+    color: #D0D7DE;
+}
+
+/* Inline Code */
+code {
+    font-family: "SF Mono", "JetBrains Mono", Menlo, Monaco, monospace;
+    font-size: 12.5px;
+    background-color: rgba(110, 118, 129, 0.2);
+    color: #F0883E;
+    padding: 2px 6px;
+    border-radius: 4px;
+    border: 1px solid rgba(240, 246, 252, 0.08);
+}
+
+/* Fenced Code Blocks */
+pre {
+    background-color: #161B22;
+    border: 1px solid rgba(240, 246, 252, 0.12);
+    border-radius: 6px;
+    padding: 12px 14px;
+    margin: 12px 0;
+    overflow-x: auto;
+}
+pre code {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    color: #7EE787;
+    font-size: 12.5px;
+    line-height: 1.5;
+}
+
+/* Math Blocks ($$...$$) */
+.math-block {
+    background-color: rgba(56, 189, 248, 0.06);
+    border: 1px solid rgba(56, 189, 248, 0.18);
+    border-left: 3px solid #38BDF8;
+    border-radius: 5px;
+    padding: 10px 14px;
+    margin: 10px 0;
+    font-family: "SF Mono", Menlo, monospace;
+    font-size: 13.5px;
+    color: #38BDF8;
+    letter-spacing: 0.2px;
+}
+
+/* Inline Math ($...$) */
+.math-inline {
+    font-family: "SF Mono", Menlo, monospace;
+    color: #38BDF8;
+    background-color: rgba(56, 189, 248, 0.08);
+    border: 1px solid rgba(56, 189, 248, 0.15);
+    padding: 1px 5px;
+    border-radius: 3px;
+    font-size: 13px;
+}
+
+/* Divider */
+hr {
+    border: none;
+    border-top: 1px solid rgba(240, 246, 252, 0.1);
+    margin: 14px 0;
+}
